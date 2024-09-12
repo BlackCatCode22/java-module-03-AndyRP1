@@ -1,0 +1,13 @@
+package mystudent;
+
+public class Student {
+    public static void sayHello() {
+
+        System.out.printf("Hello from the student class I am a static method and I belng to the Student class \n!");
+    }
+
+    public void sayHi() {
+        System.out.println("\n Hi there I must be from an object because I am not");
+
+    }
+}
