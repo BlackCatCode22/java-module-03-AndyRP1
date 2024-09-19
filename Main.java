@@ -1,45 +1,51 @@
-// ar 9/12/24
+// ar 9/19/24
 // Main.Java
-import mystudent.Student;
-import mystudent.App;
-import myanimals.Cat;
+//
 
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+ 
+        .
 public class Main {
     public static void main(String[] args) {
 
-        System.out.printf("Hello and welcome from the main!");
+        System.out.println("\n Welcome to my Zoo Program!");
 
-       //Create a Student object.
-        Student student = new Student();
-        // Create an object from a runnable class.
-        App app = new App();
+            // Create an Animal object.
+        Animal myAnimalObject = new Animal ();
 
-        // Use a method from the student class
-        // I know that I have a static method on Student class
-        // and, i Know how to call a static class method
-        Student.sayHello();
-
-        // Call a method that belongs to the student object.
-        student.sayHi();
-
-        // Create a cat object.
-        Cat cat = new();
-
-        // use a method that is available wto the cat object named cat
-        System.out.println("\n This sound is coming from the cat object named cat...");
-        cat.animalSound();
-
-        // Create a Dog object
-        Dog dog = new Dog();
-        //Use a method that is available to the Dog object named dog.
-        System.out.println("\n This soud is coming from the Dog object named dog.... ");
-        dog.animalSound();
+        myAnimalObject.numOfanimals;
 
 
+        myAnimalObject.setAge(4)
+
+        // Use our new animal
+        System.out.println("\n My animals age is : "+ myAnimalObject.getAge());
+
+
+        // Create a Hyena object
+        Hyena mynewHyena = new Hyena();
+
+        // output the age of our Hyena
+        System.out.println("\n The age of our Hyena is "+ mynewHyena.getAge()+ "years old";
+
+        // Crete a Lion Object
+        Lion myLion = new Lion();
+
+        // make the lion 12 years old
+        myLion.setAge(12);
+
+        //Output our lion's age.
+        System.out.println("\n Our lion is "+ myLion.getAge);
+
+        //Output the number of animals.
+        System.out.println("\n The number of animals created is :"+ Animals.numOfAnimals );
 
 
 
 
 
-        }
+
     }
+}
